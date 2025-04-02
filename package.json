@@ -45,6 +45,7 @@
         "xss-clean": "^0.1.1"
     },
     "devDependencies": {
+        "@types/bcryptjs": "^3.0.0",
         "@types/dotenv": "^8.2.0",
         "@types/express-mongo-sanitize": "^2.1.2",
         "@types/helmet": "^4.0.0",

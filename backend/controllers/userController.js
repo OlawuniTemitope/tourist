@@ -1,6 +1,6 @@
 import multer from 'multer';
 import { default as dirpath } from 'path';
-import sharp from 'sharp';
+import sharp from 'sharp/lib/index.js';
 import User from '../models/userModel.js';
 import AppError from '../utils/appError.js';
 import catchAsync from '../utils/catchAsync.js';
