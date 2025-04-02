@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import express from 'express';
 import morgan from 'morgan';
 import bodyParser from 'body-parser';
@@ -100,8 +101,10 @@ export default app;
 // git add .
 // git commit -m "first commit"
 // git branch -M main
+
 // git remote add origin https://github.com/OlawuniTemitope/tourist
 // git push -u origin main
 
 // git remote add origin https://github.com/OlawuniTemitope/tourist.git
 // git push -u origin main
+// git push -f origin main
