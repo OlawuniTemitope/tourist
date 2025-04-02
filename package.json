@@ -5,6 +5,7 @@
     "scripts": {
         "fullstack": "concurrently \"npm run backend\" \"npm run client\"",
         "start:prod": "NODE_ENV=production nodemon backend/server.js",
+        "server": "node backend/server.js",
         "client": "cd client && npm run dev",
         "debug": "ndb server.js",
         "backend": "nodemon backend/server.js",
